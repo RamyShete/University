@@ -1,0 +1,18 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [Продецура 2]
+
+AS
+BEGIN
+
+	SET NOCOUNT ON;
+
+	SELECT * from [dbo].[запрос1];
+END
+GO
+
+
+
